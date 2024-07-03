@@ -19,4 +19,4 @@ npx json-server --watch db.json --port 8000
 ### Step 5: View enter user data using the view data button
 
 ##SCREENSHOT
-![ALT TEXT](../public/ss1.png)
+![GAME]("./public/ss1.JPG")
