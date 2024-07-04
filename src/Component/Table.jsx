@@ -32,8 +32,8 @@ const Table = () => {
   return (
     <>
      <div className="container">
-      <h2>Users</h2>
-      <table className="table">
+      <h2 className='badge text-primary-emphasis bg-primary-subtle border border-primary-subtle fs-3'>List of User</h2>
+      <table className="table table-striped table-bordered" >
     <thead className="thead-dark">
     <tr >
     <th scope="col">S.N:</th>
