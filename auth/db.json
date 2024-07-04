@@ -1,70 +1,64 @@
 {
   "users": [
     {
-      "id": "2dd3",
+      "id": "4988",
       "fname": "Yubraj",
       "lname": "Giri",
       "email": "giriyubraj787898@gmail.com",
       "phone": "9866762408",
       "city": "Shankamul",
-      "district": "Banke",
-      "province": "Madhesh",
-      "country": "Hungary"
-    },
-    {
-      "id": "7f07",
-      "fname": "Sudhan",
-      "lname": "Poudle",
-      "email": "sudhan@gamail.com",
-      "phone": "9869425333",
-      "city": "Baneshwor",
-      "district": "Arghakhanchi",
+      "district": "Bardiya",
+      "dob": "2024-07-01",
       "province": "Lumbini",
-      "country": "Turkey"
+      "country": "French Polynesia"
     },
     {
-      "id": "a521",
-      "fname": "Ram",
+      "id": "9ce9",
+      "fname": "Ramesh",
       "lname": "Poudle",
-      "email": "ram@gmail.com",
-      "phone": "9876545676",
-      "city": "Kalanki",
-      "district": "Kathmandu",
-      "province": "Koshi",
+      "email": "ramesh764@gmail.com",
+      "phone": "9865648976",
+      "city": "Shankamul",
+      "district": "banke",
+      "dob": "2015-08-13",
+      "province": "Sudurpashchim",
+      "country": "Nauru"
+    },
+    {
+      "id": "31e0",
+      "fname": "Sudhan",
+      "lname": "Rai",
+      "email": "ranamga@gmail.com",
+      "phone": "9876654876",
+      "city": "Jhapa",
+      "district": "Jhapa",
+      "dob": "2014-06-12",
+      "province": "Madhesh",
       "country": "Saint Pierre and Miquelon"
     },
     {
-      "id": "0f7b",
-      "fname": "Gamrab",
-      "lname": "Rubli",
-      "email": "ranamga@gmail.com",
-      "phone": "9876547657",
-      "city": "Bhadrapur",
-      "district": "Tokeyo",
-      "province": "Gandaki",
-      "country": "Hungary"
+      "id": "de6b",
+      "fname": "Sita",
+      "lname": "Makur",
+      "email": "yraturi@gmail.com",
+      "phone": "9877675692",
+      "city": "Pokhara",
+      "district": "Karnali",
+      "dob": "2010-08-31",
+      "province": "Lumbini",
+      "country": "United Arab Emirates"
     },
     {
-      "id": "b706",
-      "fname": "Ramesh",
-      "lname": "Tharu",
-      "email": "ramesh764@gmail.com",
-      "phone": "9876675439",
-      "city": "Rampur",
-      "district": "Chitwan",
-      "province": "Sudurpashchim",
-      "country": "Falkland Islands"
-    },
-    {
-      "id": "5807",
-      "fname": "Dev",
-      "lname": "Magar",
-      "email": "dev.yubrajgiri@gmail.com",
-      "phone": "9844563739",
-      "city": "Baneshwor",
-      "district": "Jhapa",
-      "province": "Madhesh",
-      "country": "Nepal"
+      "id": "6da3",
+      "fname": "Yubraj",
+      "lname": "Giri",
+      "email": "giriyubraj787898@gmail.com",
+      "phone": "9866762408",
+      "city": "Shankamul",
+      "district": "Butwal",
+      "dob": "2006-11-17",
+      "province": "Lumbini",
+      "country": "Brazil"
     }
   ]
 }

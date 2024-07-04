@@ -43,6 +43,7 @@ const Table = () => {
       <th scope="col">Phone </th>
       <th scope="col">City</th>
       <th scope="col">District</th>
+      <th scope="col">DOB</th>
       <th scope="col">Province</th>
       <th scope="col">Country</th>
       {/* <th scope="col">Action</th> */}
@@ -62,6 +63,7 @@ const Table = () => {
         <td>{item.phone}</td>
         <td>{item.city}</td>
         <td>{item.district}</td>
+        <td>{item.dob}</td>
         <td>{item.province}</td>
         <td>{item.country}</td>
         {/* <td><button className='btn btn-primary'>edit</button></td> */}

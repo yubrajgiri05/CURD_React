@@ -11,6 +11,7 @@ const Registration = () => {
     phone: "",
     city: "",
     district: "",
+    dob: "",
     province: "",
     country: "Nepal",
   })
@@ -51,6 +52,11 @@ const Registration = () => {
     } else if (!/\S+@\S+\.\S+/.test(formdata.email)){
       isvalid = false;
       validationErrors.email = "Email is not valid"
+    }
+    //dob validation
+    if(formdata.dob === "" || formdata.dob === null){
+      isvalid = false;
+      validationErrors.dob = "DOB is required"
     }
     //phone validation
     if(formdata.phone === "" || formdata.phone === null){
@@ -218,6 +224,27 @@ const Registration = () => {
                   }
                       </div>
                     </div>
+
+                    <div className="d-flex gap-4">
+                     <div className="form-single">
+                        <label htmlFor="dob" className="form-label">
+                        Date Of Birth <span className="text-danger">*</span>
+                        </label>
+                        <input
+                          type="date"
+                          className="form-control"
+                          name="dob"
+                          id="dob"
+                          placeholder="Date Of Birth"
+                          onChange={(event)=> setFormData({...formdata, dob: event.target.value})}
+                        />
+                          {
+                    valid ? <></>:
+                    <span className="text-danger">
+                      {errors.dob}
+                    </span>
+                  }
+                      </div>
                       <div className="form-single d-flex flex-column">
                         <label htmlFor="Province" className="form-label">
                         Province <span className="text-danger">*</span>
@@ -243,6 +270,7 @@ const Registration = () => {
                     </span>
                   }
                       </div>
+                    </div>
                       <div className="form-single d-flex flex-column">
                         <label htmlFor="Country" className="form-label">
                         Country <span className="text-danger">*</span>
